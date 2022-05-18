@@ -1,0 +1,23 @@
+.CharList{
+    background-color: beige;
+}
+
+.FiltersShow{
+    text-align: center;
+    background-color:darkblue;
+    color: antiquewhite;
+}
+.FiltersShow>span{
+    color:gold;
+}
+
+.CharList2
+{
+    padding: 10px;
+    background-color: rgb(21, 214, 221);
+    width: 100%;
+}
+.HeroesList
+{
+    transition: all 1s ease-in;
+}

@@ -1,0 +1,36 @@
+.CharListItem{
+    margin: 2px 5px;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0,.1);
+    min-width: 200px;
+    max-width: 400px;
+}
+.CharListItem_close{
+    float: right;
+    cursor: pointer;
+}
+
+.CharListItem_element{
+    float:left;
+}
+
+.CharListItem_name{
+    text-align: center;
+    background-color: cadetblue;
+    color: rgb(226, 226, 226);
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+.CharListItem_name::first-letter{
+    font-weight: 800;    
+}
+
+.CharListItem_description>span{
+    font-weight: 700;
+    font-size: small;
+    color: cadetblue;
+}
+.CharListItem_description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

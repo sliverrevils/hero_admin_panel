@@ -1,0 +1,16 @@
+.FilterPAnel{
+    background-color: cadetblue;
+    padding: 0 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.FilterButtons{
+    background-color: beige;
+    padding: 10px 20px;
+}
+
+.FilterButtons button{
+    border-radius: 10px;
+    margin: 5px;
+}
