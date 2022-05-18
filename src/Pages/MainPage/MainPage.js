@@ -1,7 +1,7 @@
 import { useEffect} from "react";
 import { useDispatch, useSelector } from "react-redux";
 import AddForm from "../../Components/addForm/addForm";
-import CharList2 from "../../Components/charList/charList2";
+import CharList2 from "../../Components/charList/charList2 rtk ";
 import FilterPanel from "../../Components/filterPanel/filterPanel";
 
 import { BarWave, Hypnosis } from 'react-cssfx-loading';//https://react-cssfx.surge.sh/

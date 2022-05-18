@@ -1,82 +1,10 @@
 {
   "heroes": [
     {
-      "id": 0,
-      "name": "Henry Allen",
-      "description": "Quis fugiat labore voluptate veniam labore. Reprehenderit voluptate deserunt reprehenderit dolore cillum eiusmod. Deserunt aliqua proident officia esse. Laborum aute excepteur exercitation Lorem nulla cillum enim quis voluptate consectetur duis velit.\r\n",
-      "element": "fire"
-    },
-    {
-      "id": 1,
-      "name": "Vilma Neal",
-      "description": "Ullamco occaecat esse velit irure esse cillum aliquip voluptate cupidatat velit est officia amet. Qui est adipisicing duis culpa eu cillum. Et ut consequat non amet nostrud officia laboris. Et tempor nisi qui eu reprehenderit do exercitation sunt nostrud consectetur est tempor. Sint qui esse id pariatur sit occaecat cillum anim.\r\n",
-      "element": "wind"
-    },
-    {
-      "id": 2,
-      "name": "Riley Payne",
-      "description": "Consequat mollit officia ad et id sint commodo adipisicing. Irure officia anim cupidatat minim laboris. Exercitation esse proident id ut eu quis.\r\n",
-      "element": "wind"
-    },
-    {
-      "id": 3,
-      "name": "Aguilar Kent",
-      "description": "Voluptate aute labore dolore proident non. Dolore commodo Lorem fugiat ad Lorem. Aute id irure ullamco do est duis et magna. Fugiat occaecat amet nisi ex excepteur id commodo amet. Mollit ex nostrud qui ea non. Exercitation mollit voluptate magna aliqua velit reprehenderit tempor minim laborum et ex proident ullamco. Anim cillum nostrud et ex occaecat irure consectetur laborum.\r\n",
-      "element": "wind"
-    },
-    {
-      "id": 4,
-      "name": "Adkins Gutierrez",
-      "description": "Cillum incididunt sunt consequat occaecat. In qui exercitation esse in magna. Amet ad enim enim ad pariatur in. Magna cillum amet elit minim laboris voluptate aliquip aliquip sit consectetur eu. Id amet velit tempor reprehenderit irure officia reprehenderit nulla minim.\r\n",
-      "element": "water"
-    },
-    {
-      "id": 5,
-      "name": "Tammie Jimenez",
-      "description": "Non minim laborum laboris laboris deserunt voluptate incididunt eiusmod aliqua excepteur irure aliquip reprehenderit id. Ex irure dolore adipisicing laboris quis pariatur labore amet consequat. Laboris nisi anim dolore voluptate eu est commodo mollit sint. Veniam ad sint enim mollit ad esse sint. Elit nostrud in ullamco culpa duis do.\r\n",
-      "element": "fire"
-    },
-    {
-      "id": 6,
-      "name": "Kelsey Gillespie",
-      "description": "Ea eiusmod nisi cupidatat est labore do exercitation nulla ullamco sint adipisicing occaecat est. Consectetur ipsum cillum officia ullamco ullamco nulla velit ullamco nisi. Non laborum deserunt dolor id exercitation sint culpa mollit irure consectetur ea veniam sit. Eiusmod labore veniam sit laborum in aliqua eu consequat. Anim do aliquip sit sint cillum. Labore incididunt fugiat consectetur cupidatat eu ad irure eu tempor do magna labore officia.\r\n",
-      "element": "fire"
-    },
-    {
-      "id": 7,
-      "name": "Gabriela Henry",
-      "description": "Elit non do commodo ad. Incididunt cupidatat enim ut proident dolor et quis amet anim labore. Minim ea non ullamco enim quis in esse ea reprehenderit consectetur. Exercitation magna irure incididunt laboris ea.\r\n",
-      "element": "earth"
-    },
-    {
-      "id": 8,
-      "name": "Gibson Mann",
-      "description": "Cillum duis dolore adipisicing esse. Excepteur Lorem cupidatat enim commodo pariatur culpa sit qui qui officia mollit officia ipsum ea. Reprehenderit eu consectetur ut quis in do sit voluptate consequat laborum non laborum. Nulla nostrud ullamco proident consequat sint quis fugiat velit consectetur aliquip id commodo. Adipisicing veniam incididunt proident nulla qui dolore. Esse mollit aute eu occaecat ex quis.\r\n",
-      "element": "fire"
-    },
-    {
-      "id": 9,
-      "name": "Carter Jackson",
-      "description": "Voluptate sint ut proident nulla ea eu id et sit deserunt anim consectetur aliqua. Tempor Lorem id laborum elit Lorem aliquip exercitation aute qui magna id. Excepteur ex minim eu laborum cillum laboris nisi proident et consectetur Lorem. Occaecat nulla labore do ullamco consequat consectetur id ad minim qui labore. Non aliqua incididunt irure duis eiusmod labore irure consequat enim non do laborum eiusmod magna.\r\n",
-      "element": "wind"
-    },
-    {
       "id": 10,
       "name": "Margarita Buckner",
       "description": "Laboris ex magna Lorem nisi deserunt duis duis enim elit. Sint elit sint occaecat cillum cupidatat nisi quis eiusmod. Occaecat quis ut amet qui amet exercitation dolore incididunt laboris pariatur mollit aute. Esse voluptate consequat sunt cupidatat voluptate labore. Commodo dolore pariatur qui laboris in nisi do. Nulla aliqua amet reprehenderit anim cupidatat id nostrud culpa do nostrud dolor cupidatat ex esse.\r\n",
       "element": "fire"
-    },
-    {
-      "id": 11,
-      "name": "Smith Hartman",
-      "description": "Commodo incididunt ullamco est incididunt. Duis enim cupidatat in aliqua. Minim reprehenderit do ipsum cupidatat et consectetur incididunt ut cillum veniam. Duis labore labore esse pariatur consequat esse ex ut consequat minim dolor esse.\r\n",
-      "element": "wind"
-    },
-    {
-      "id": 12,
-      "name": "Emerson Herring",
-      "description": "Enim anim quis est cupidatat aute exercitation do. Eiusmod minim consectetur do eiusmod. Fugiat qui elit quis do id ipsum tempor sunt commodo duis minim ipsum. Excepteur laborum laborum irure do irure non laborum tempor laborum et quis. Irure officia aute occaecat cillum elit amet eu quis velit tempor excepteur ad tempor cillum. Et culpa ad proident laborum veniam amet adipisicing nostrud pariatur.\r\n",
-      "element": "wind"
     },
     {
       "id": 13,
@@ -263,12 +191,6 @@
       "name": "Nita Aguirre",
       "description": "Sint culpa ut nulla dolore labore dolor officia officia sint velit et culpa fugiat et. Ad quis reprehenderit officia dolor velit laboris dolore quis et consectetur. Adipisicing commodo ad aute eu voluptate velit exercitation voluptate.\r\n",
       "element": "water"
-    },
-    {
-      "id": 44,
-      "name": "Dianna Prince",
-      "description": "Dolore minim aliqua dolor aliquip culpa amet aute enim. Aliqua voluptate laborum deserunt adipisicing do incididunt ea proident qui elit mollit veniam duis. Pariatur ipsum non cillum consectetur. Culpa non fugiat mollit minim minim elit consequat ex sint ex. Consequat aliqua aliqua et eiusmod magna adipisicing ipsum culpa dolore anim. Eiusmod deserunt deserunt ex irure exercitation enim nulla qui exercitation officia cillum.\r\n",
-      "element": "wind"
     },
     {
       "id": 45,

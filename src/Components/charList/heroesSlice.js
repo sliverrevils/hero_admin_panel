@@ -79,8 +79,8 @@ export const heroFiltersCS=createSelector(
     (state)=>state.filtersReducer.search,
     (heroes,activeFilters,search)=>{ //параметры - результаты первых функций           
        if(heroes.length>0){                         
-        const afterFilters=activeFilters.length>0?heroes.filter(hero=>activeFilters.includes(hero.element)):heroes;
-        return afterFilters.filter(hero=>hero.name?.toLowerCase().includes(search.toLowerCase()));
+        const afterFilters=activeFilters.length>0?heroes.filter(hero=>activeFilters.includes(hero.element)):heroes;//after filters
+        return afterFilters.filter(hero=>hero.name?.toLowerCase().includes(search.toLowerCase()));//after search 
     }
     }
 )

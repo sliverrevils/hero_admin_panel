@@ -8,22 +8,23 @@ import {v4 as uuid} from 'uuid';
 import './addForm.css';
 import { addHeroRedux } from "../charList/heroesSlice";
 import { selectAll } from "../filterPanel/filterSlice";
+import { useAddHeroMutation } from "../../app/apiSlice";
 
 const AddForm = () => {
 
-    const {addHero}=useAdminPanelServices();
-    const ID=useId();
+    //const {addHero}=useAdminPanelServices();
+    const ID=useId();   
 
     const [elements,setElements]=useState(); // menu options
-
-    // store.subscribe(()=>{ // add filters after his load
-    //     setElements(store.getState().filtersReducer.filters?.filter(el=>el!='all'));
-    // });
 
     const filtersArr=useSelector(selectAll);
     useEffect(()=>setElements(filtersArr.filter(el=>el.name!='all')),[filtersArr])
     
-    const dispatch=useDispatch();    
+    //const dispatch=useDispatch();    
+
+    //первый параметр - это сама функция которая проводит мутацию
+    //второй - объект со статусами  
+    const [createHero,{isLoading}]=useAddHeroMutation();
 
     return (
         <div className="AddForm">
@@ -33,12 +34,17 @@ const AddForm = () => {
                     name: Yup.string().min(3, 'Min 3').max(10, 'MAx 10').required('Enter name!'),
                     description: Yup.string().max(30, 'Max 30').min(5, 'Min 5').required('Must type description')
                     
-                })}                
-                onSubmit={(value,{resetForm})=>{
-                    dispatch(addHeroRedux(value));
-                    addHero({...value,id:uuid()});//ADD TO SERVER
+                })} 
+                // USING RTK Query               
+                onSubmit={(value,{resetForm})=>{                    
+                    createHero({...value,id:uuid()}).unwrap();//обязательно вызывать unwrap, что бы сущности правильно отрабатывали
                     resetForm();
                 }}
+                // onSubmit={(value,{resetForm})=>{
+                //     dispatch(addHeroRedux(value));
+                //     addHero({...value,id:uuid()});//ADD TO SERVER
+                //     resetForm();
+                // }}
             >
                 <Form className="Formik">
                     <Field id='name' name='name' type='text' placeholder='Name'/>

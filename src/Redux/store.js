@@ -7,6 +7,8 @@ import filtersReducer from "../Components/filterPanel/filterSlice";
 
 import { configureStore } from "@reduxjs/toolkit";
 
+import {apiSlice } from "../app/apiSlice"; // API REDUCER 
+
 // MIDDLEWARE
 //next - это dispatch
 const stringMiddleware = ({ dispatch, getState }) => (next) => (action) => {
@@ -18,8 +20,8 @@ const stringMiddleware = ({ dispatch, getState }) => (next) => (action) => {
 
 //----------------------CRIATING STORE WITH TOOLKIT configureStore ---- CURRENT VERSION----------------
 export const store=configureStore({
-    reducer:{heroesReducer, fetchReducer, filtersReducer},//передаем редюсеры
-    middleware:getDefaultMiddleware=>getDefaultMiddleware().concat(stringMiddleware),//getDefaultMiddleware - массив встроенных мидлваров(ReduxThunk уже там), который мы дополняем своим 
+    reducer:{heroesReducer, fetchReducer, filtersReducer,[apiSlice.reducerPath]:apiSlice.reducer},//передаем редюсеры
+    middleware:getDefaultMiddleware=>getDefaultMiddleware().concat(stringMiddleware,apiSlice.middleware),//getDefaultMiddleware - массив встроенных мидлваров(ReduxThunk уже там), который мы дополняем своим 
     devTools:process.env.NODE_ENV!=='production',// подключает DEVTOOLS только на этапе разработки
     
 })
